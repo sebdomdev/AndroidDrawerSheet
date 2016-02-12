@@ -12,14 +12,17 @@ Google calls it navigation drawer or bottom sheet: This drawer sheet can be open
 
 In your layout xml file:
 ```xml
+<RelativeLayout...>
+...content that's outside of the drawer...
 <de.mxapplications.androiddrawersheet.AndroidDrawerSheet
         android:layout_width="400dp"
         android:layout_height="match_parent"
         app:drawerOffset="48dp"
         app:drawerAlignment="right"
         android:id="@+id/right_drawer">
-        ...your content here...
+        ...content that's inside the drawer...
     </de.mxapplications.androiddrawersheet.AndroidDrawerSheet>
+</RelativeLayout>
 ```
 
 ## Installation

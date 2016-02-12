@@ -24,6 +24,7 @@ In your layout xml file:
     </de.mxapplications.androiddrawersheet.AndroidDrawerSheet>
 </RelativeLayout>
 ```
+**Important: The AndroidDrawerSheet has to be inside of a RelativeLayout!!!**
 
 ## Installation
 

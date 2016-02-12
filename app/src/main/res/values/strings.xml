@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidDrawerSheet</string>
+    <string name="bottom_text1">Drag to open.</string>
+    <string name="bottom_text2">The drawer closes completely when the user resizes it to less than half its full size and it opens completely when the user resizes it to more than half its full size</string>
+    <string name="right_text1">Drag to open.</string>
+    <string name="right_text2">The drawer has a screenOffset of 48dp and the screenOffset is not visible. It doesn\'t close or open completely when the user resizes it at all.</string>
+    <string name="top_text1">Touch and drag down from right below the action bar to open.</string>
+    <string name="top_text2">The drawer has a screenOffset of 48dp and the screenOffset is invisible. It closes completely when the user resizes it to less then 100dp and it opens completely when the user resizes it to its full size -150dp.</string>
+    <string name="left_text1">You can\'t open it by dragging or swiping. But you can close it by swiping or dragging.</string>
+    <string name="left_text2">The drawer uses all the default settings.</string>
+    <string name="right_button_text">Close</string>
+</resources>
